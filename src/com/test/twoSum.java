@@ -5,6 +5,7 @@
 
 //time complexity O(n2)
 //space complexity O(1)
+//okay
 package com.test;
 
 import java.util.Scanner;
@@ -28,7 +29,7 @@ public class twoSum{
      	Scanner in = new Scanner(System.in);
      	int n = in.nextInt();
      	
-     	System.out.println("输入数组元素：");
+     	System.out.println("输入数组元素:");
      	int[] nums= new int[n];
      	for(int j = 0 ; j < n ; j++){
 			nums[j] = in.nextInt();
