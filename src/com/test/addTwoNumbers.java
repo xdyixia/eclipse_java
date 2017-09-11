@@ -10,14 +10,14 @@
 
 package com.test;
 
-class ListNode{
-    int val;
-    ListNode nextNode;
-    ListNode(int val){
-        this.val=val;
-        this.nextNode=null;
-    }
-}
+//class ListNode{
+//    int val;
+//    ListNode nextNode;
+//    ListNode(int val){
+//        this.val=val;
+//        this.nextNode=null;
+//    }
+//}
 
 public class addTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -47,12 +47,12 @@ public class addTwoNumbers {
     
     public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    	ListNode l1 = new ListNode(342);
-    	ListNode l2 = new ListNode(465);
-    	
-    	addTwoNumbers add = new addTwoNumbers();
-    	ListNode sol = add.addTwoNumbers(l1,l2);
-    	System.out.println(sol.val);
+//    	ListNode l1 = new ListNode(342);
+//    	ListNode l2 = new ListNode(465);
+//    	
+//    	addTwoNumbers add = new addTwoNumbers();
+//    	ListNode sol = add.addTwoNumbers(l1,l2);
+//    	System.out.println(sol.val);
 
 	}
 }
